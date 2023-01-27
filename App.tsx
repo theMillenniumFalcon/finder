@@ -19,16 +19,12 @@ const App = () => (
       >
         {() => (
           <Tab.Navigator
-            tabBarOptions={{
-              showLabel: false,
-              activeTintColor: PRIMARY_COLOR,
-              inactiveTintColor: DARK_GRAY,
-              labelStyle: {
-                fontSize: 14,
-                textTransform: "uppercase",
-                paddingTop: 10,
-              },
-              style: {
+            screenOptions={{
+              headerShown: false,
+              tabBarShowLabel: false,
+              tabBarActiveTintColor: PRIMARY_COLOR,
+              tabBarInactiveTintColor: DARK_GRAY,
+              headerStyle: {
                 backgroundColor: WHITE,
                 borderTopWidth: 0,
                 marginBottom: 0,
@@ -37,6 +33,11 @@ const App = () => (
                 shadowColor: BLACK,
                 shadowOffset: { height: 0, width: 0 },
               },
+              tabBarLabelStyle: {
+                fontSize: 14,
+                textTransform: "uppercase",
+                paddingTop: 10,
+              }
             }}
           >
             <Tab.Screen

@@ -1,4 +1,4 @@
-import { DataT } from "../../types"
+import { DataT } from "../../types/types"
 import IMAGE_01 from "../images/01.jpg"
 import IMAGE_02 from "../images/02.jpg"
 import IMAGE_03 from "../images/03.jpg"

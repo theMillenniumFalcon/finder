@@ -2,7 +2,7 @@ import React from "react"
 import { Text, View } from "react-native"
 
 import Icon from "./Icon"
-import { ProfileItemT } from "../types"
+import { ProfileItemT } from "../types/types"
 import styles, { DARK_GRAY, WHITE } from "../assets/styles"
 
 const ProfileItem = ({
